@@ -1,4 +1,7 @@
 PRODUCT_COPY_FILES += \
+vendor/sts/a05bd/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
+vendor/sts/a05bd/proprietary/vendor/etc/.tp/.thermal_policy_00:$(TARGET_COPY_OUT_VENDOR)etc/.tp/.thermal_policy_00 \
+vendor/sts/a05bd/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
 vendor/sts/a05bd/proprietary/vendor/bin/DcxoSetCap:$(TARGET_COPY_OUT_VENDOR)/bin/DcxoSetCap \
 vendor/sts/a05bd/proprietary/vendor/bin/acpi:$(TARGET_COPY_OUT_VENDOR)/bin/acpi \
 vendor/sts/a05bd/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
