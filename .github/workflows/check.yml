@@ -47,7 +47,7 @@ jobs:
               with open(mk_file, 'r') as f:
                   for line in f:
                       line = line.strip()
-                      if line.startswith('vendor/sts/a04br3/') and ':' in line:
+                      if line.startswith('vendor/sts/a05bd/') and ':' in line:
                           path = line.split(':')[0].strip()
                           registered.add(path)
           except FileNotFoundError:
@@ -58,7 +58,7 @@ jobs:
           for root, dirs, files in os.walk(repo_dir):
               for file in files:
                   full_path = os.path.join(root, file)
-                  rel_path = os.path.join('vendor/sts/a04br3', os.path.relpath(full_path, repo_dir))
+                  rel_path = os.path.join('vendor/sts/a05bd', os.path.relpath(full_path, repo_dir))
                   if rel_path != mk_file and not rel_path.startswith('.git/'):
                       repo_files.add(rel_path)
 
