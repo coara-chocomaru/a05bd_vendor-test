@@ -1,5 +1,4 @@
 PRODUCT_COPY_FILES += \
-vendor/sts/a05bd/proprietary/bin/para-fix:$(TARGET_COPY_OUT_SYSTEM)/bin/para-fix \
 vendor/sts/a05bd/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
 vendor/sts/a05bd/proprietary/vendor/etc/.tp/.thermal_policy_00:$(TARGET_COPY_OUT_VENDOR)etc/.tp/.thermal_policy_00 \
 vendor/sts/a05bd/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
