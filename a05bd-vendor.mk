@@ -1,1 +1,13 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := wifi-service
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := proprietary/framework/wifi-service.jar
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := true
+LOCAL_MODULE_SUFFIX := .jar
+LOCAL_MODULE_PATH := $(TARGET_OUT)/framework
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
 $(call inherit-product, vendor/sts/a05bd/a05bd-vendor-blobs.mk)
