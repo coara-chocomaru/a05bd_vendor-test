@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
-LOCAL_MODULE := wifi-service
+LOCAL_MODULE := wifi-service-mtk
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/framework/wifi-service.jar
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
