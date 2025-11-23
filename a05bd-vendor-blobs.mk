@@ -900,4 +900,8 @@ vendor/sts/a05bd/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT
 vendor/sts/a05bd/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
 vendor/sts/a05bd/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
 vendor/sts/a05bd/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
-vendor/sts/a05bd/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav
+vendor/sts/a05bd/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
+vendor/sts/a05bd/proprietary/framework/wifi-service.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/wifi-service.jar
+
+PRODUCT_DEX_PREOPT_MODULES += wifi-service
+
