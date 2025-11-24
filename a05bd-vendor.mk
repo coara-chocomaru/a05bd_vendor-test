@@ -323,9 +323,6 @@ vendor/sts/a05bd/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VEND
 vendor/sts/a05bd/proprietary/vendor/etc/powercontable.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.cfg \
 vendor/sts/a05bd/proprietary/vendor/etc/powerscntbl.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.cfg \
 vendor/sts/a05bd/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
-vendor/sts/a05bd/proprietary/vendor/etc/seccomp_policy/configstore@1.1.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/configstore@1.1.policy \
-vendor/sts/a05bd/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-vendor/sts/a05bd/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
 vendor/sts/a05bd/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
 vendor/sts/a05bd/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
 vendor/sts/a05bd/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
