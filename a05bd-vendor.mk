@@ -229,7 +229,6 @@ vendor/sts/a05bd/proprietary/vendor/bin/xxd:$(TARGET_COPY_OUT_VENDOR)/bin/xxd \
 vendor/sts/a05bd/proprietary/vendor/bin/yes:$(TARGET_COPY_OUT_VENDOR)/bin/yes \
 vendor/sts/a05bd/proprietary/vendor/bin/zcat:$(TARGET_COPY_OUT_VENDOR)/bin/zcat \
 vendor/sts/a05bd/proprietary/vendor/data/misc/ProjectConfig.mk:$(TARGET_COPY_OUT_VENDOR)/data/misc/ProjectConfig.mk \
-vendor/sts/a05bd/proprietary/vendor/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE.xml.gz \
 vendor/sts/a05bd/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
 vendor/sts/a05bd/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
 vendor/sts/a05bd/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
