@@ -78,7 +78,6 @@ vendor/sts/a05bd/proprietary/vendor/bin/hostname:$(TARGET_COPY_OUT_VENDOR)/bin/h
 vendor/sts/a05bd/proprietary/vendor/bin/hw/android.hardware.audio@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@4.0-service-mediatek \
 vendor/sts/a05bd/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
 vendor/sts/a05bd/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-external-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-external-service \
-vendor/sts/a05bd/proprietary/vendor/bin/hw/android.hardware.cas@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.0-service \
 vendor/sts/a05bd/proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.1-service \
 vendor/sts/a05bd/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service \
 vendor/sts/a05bd/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.clearkey \
@@ -261,7 +260,6 @@ vendor/sts/a05bd/proprietary/vendor/etc/group:$(TARGET_COPY_OUT_VENDOR)/etc/grou
 vendor/sts/a05bd/proprietary/vendor/etc/init/android.hardware.audio@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@4.0-service-mediatek.rc \
 vendor/sts/a05bd/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
 vendor/sts/a05bd/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-external-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-external-service.rc \
-vendor/sts/a05bd/proprietary/vendor/etc/init/android.hardware.cas@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.0-service.rc \
 vendor/sts/a05bd/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.1-service.rc \
 vendor/sts/a05bd/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.rc \
 vendor/sts/a05bd/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.clearkey.rc \
